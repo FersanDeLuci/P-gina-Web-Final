@@ -1,0 +1,222 @@
+<html>
+    <head>
+        <title>Mi primera página web</title>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header, nav, main, footer{
+                width: 960px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            header{
+                /*width: 960px;*/
+                height: 100 px;
+                background-color:cornflowerblue;
+                color:azure;
+                text-align: center;
+            }
+            nav{
+                background-color: aquamarine;
+                height: 40px;
+            }
+            main{
+                background-color: deepskyblue;
+                
+            }
+            footer{
+                background-color: cyan;
+                height: 30px;
+                text-align: center;
+                color: cornflowerblue;
+            }
+            section{
+                width: 800px;
+                background-color: azure;
+                /*margin-top: 30px;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;*/
+                margin: 30px auto;
+                padding: 30px;
+            }
+            article{
+                width: 500px;
+                padding: inherit;
+                margin-left: auto;
+                margin-right: auto;
+                background-color:aquamarine;
+                color:darkmagenta;
+            }
+            h2,h3{
+                color:blueviolet; 
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            h3,h4{
+                text-align: center;
+            }
+            a{
+                margin: 0px 10px;
+                font-weight: bold;
+                text-decoration: none;
+                text-decoration-line: none; 
+            }
+            a:link{
+                color: blue;
+            }
+            a:visited{
+                color: darkcyan;
+            }
+            a:hover{
+                color: deeppink;
+            }
+            p{
+                color:cornflowerblue;
+            }
+            main nav{
+                width: 500px;
+                height: 50px;
+                text-align: center;
+                background-color: transparent;
+            }
+            main nav a{ 
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 20px;
+            
+            }
+            main nav a:link{ 
+                color: beige;
+                background-color:aquamarine;
+                border: 2px solid beige;
+            }
+            main nav a:visited{
+                border: 2px solid blue;
+                color: blue;
+            }
+            main nav a:hover{  
+                text-decoration: none;
+                color:blueviolet;
+                background-color:azure;
+            }
+            img { 
+                width:300px;
+                height: auto;
+                display: block;
+                margin: 20px auto;
+            }
+            main section articule section img  {  
+                width: 230px;
+            }
+            ul, ol{
+                color:darkorange;
+                list-style-type: square;
+                padding: 20px;
+            }
+            ol{
+                list-style-type: lower-alpha;
+            }
+            #vineta_1{
+                list-style-image: url("../png/lista-de-musica.png");
+                width: 10 px;
+            }
+            nav ul{
+                list-style-type: none;
+                text-align: center;
+                padding: 10px;
+            }
+            nav ul li{
+                display:inline-block;
+                width: 150px;
+                border: 2px solid deepskyblue;
+                background-color:aliceblue;
+            }
+            nav ul li a:link{
+                color:deepskyblue;
+            }
+            nav ul li a:hover{
+                text-decoration: none;
+                color:darkmagenta;
+            }
+            nav ul li a:visited{
+                color:royalblue;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="menú">Maria Fernanda De Luciano Santos</h1>
+        </header>
+        <nav>
+            <ul>
+            <li><a href="./galer%C3%ADa.html">Galería</a></li>
+            <li><a href="./pr%C3%A1cticas.html">Prácticas</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>        
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h1 id="titulo1">¿Quién soy?</h1>
+                <p>Soy María Fernanda De Luciano Santos, tengo 21 años, vivo con mi mamá y mi abuelita. Soy diseñadora en proceso, estudio en la <a href="http://www.buap.mx" target="_blank">Benemerita universidad autonoma de puebla</a> y aún no tengo claro en qué me quiero especializar pero sin duda la rama de Branding y Empaque me llama mucho la atención.  
+                Me considero alguien super graciosa, podria decirse que soy <b><mark>divertida<sup>2</sup></mark></b>, siempre, o al menos lo más que puedo, trato de mantener una sonrisa en mi cara, y ver lo positivo de las cosas, pero hay veces donde también me gana la emoción, pues también soy muy <del>sensible</del>.</p>
+            </section>
+            <section>
+                    <h1 id="titulo2">Mis hobbies</h1>
+                    <p>Algunas de mis aficiones son la música kpop, en especial un grupo que se llama Stray Kids; cada uno de sus miembros y de sus canciones me hacen sentir motivada y en paz.
+                    También disfruto mucho ver <mark><b><i>películas/series</i></b></mark>, así como cocinar cosas dulces, aunque casi no sean de mi agrado. Disfruto más las comidas saladas. 
+                    No soy muy buena en los deportes, y sinceramente no me llaman tanto la atención, pero casi nunca me voy a negar a jugar algo si eso implica pasar un buen rato con amigos. 
+                    Hablando de jugar, adoro los juegos de mesa, me parece divertido la combinación de emociones que se viven durante un enfrentamiento de UNO o de Turista.</p>
+            </section>
+                <section>
+                    <article>
+                    <h3>Ver películas/series</h3>
+                    <img src="../imagenes/pelis.jpeg" alt="ver pelis.jpg">
+                    <h4>Terror, romance o animadas</h4>
+                    <p>Las películas de terror siempre me han gustado, debido a la adrenalina y a la sensación de intriga que mantengo, si es que está bien hecha la película, de inicio a fin; por otro lado, las películas d eromance también son mis favoritas cuando me siento más romántica que nunca, y necesito ver lo bonito que es el amor.</p>
+                    <ol>Algunas películas que me gustan son:
+                    <li>Interestelar</li>
+                    <li>Amelie</li>
+                    <li>El Orígen</li>
+                    </ol>
+                    <h3>Escuchar música</h3>
+                    <h4>KPOP</h4>
+                    <img src="../imagenes/STRAY%20KIDS.jpeg" alt="stray kids.jpg">
+                    <p>Stray Kids es mi grupo favorito, debido a sus canciones que son muy efusivas y retumban dentro de mis oídos cada vez que las oigo. Me resultan muy motivadoras y siempre logran alegrarme el día y empezar con una buena actitud. Una canción que me gusta mucho es <a href="https://www.youtube.com/watch?v=7-X_7Tk0wXI&list=RDfZRZGbc7KHs&index=6"target="_blank">MEGAVERSE.</a>
+                    La z en la abreviación, hace referencia a su nombre, pues en coreano se pronuncia algo así. Es por eso que cuando lo abrevias queda <b><i>S K <sub>Z</sub></i></b></p>
+                    <ul id="vineta_1">Otras canciones que me gustan son:
+                        <li><a href="https://www.youtube.com/watch?v=XZSv3aMGg5Q" target="_blank">Easy</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=jmaOg2Im9qE" target="_blank">Haven</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=hV8PSY7s7VQ" target="_blank">Super Bowl</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=BCZE-44jp_I" target="_blank">Charmer</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=yQ0i2KmtL0g" target="_blank">Waiting For Us</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=TQTlCHxyuu8" target="_blank">God's Menu</a></li>
+                        </ul>
+                    <h3>Jugar juegos de mesa</h3>
+                    <img src="../imagenes/juegos%20mesa.jpg" alt="juegos mesa.jpg">
+                    <p>Disfruto mucho jugar en la compañía de mis amigos o familia, y ver el desatre que puede ocasionar un pequeño tablero de cartón o unas tarjetas de colores</p>
+                        <ul>Algunos de los juegos que más me gustan son:
+                        <li>UNO</li>
+                        <li>Turista Mundial</li>
+                        <li>Jenga</li>
+                        <li>Pictionary</li>
+                        <li>Headbanz</li>
+                        </ul>
+                    </article>
+            </section>
+            <section>
+                    <h1 id="titulo3">Películas favoritas</h1>
+                    <p>Mis películas favoritas son Coraline, <del>una película que me encanta el arduo trabajo detrás de cada escena y de cada soundtrack; me parece fascinante cada diseño de personaje y sobre todo el doblaje latino queda fenomenal, tanto que en las partes exactas, te saben poner los pelos de punta.</del><a href="https://www.industriaanimacion.com/2021/11/diseno-y-arte-conceptual-en-coraline-y-la-puerta-secreta/"target="_blank">(DISEÑO CONCEPTUAL CORALINE)</a></p>
+                    <p>Otra película que adoro es La Princesa y el sapo, debido a sus maravillosas canciones y la bonita historia de amor que reflejan, sin duda siempre termino enamorada de nuevo de alguien como Naveen.</p><a href="../imagenes/Tiana%20y%20Naveen.jpg.jpg" target="_blank">TIANA Y NAVEEN</a>
+            </section>
+         <nav>
+            <a href="#titulo1">¿Quien soy?</a>
+            <a href="#titulo2">Mis hobbies</a>
+            <a href="#menú">Menú</a>
+        </nav>
+        </main>
+        <footer><h5>Elaborado por Mafer Delsa</h5></footer>
+    </body>
+</html>

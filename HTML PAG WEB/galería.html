@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <title>Galeria</title>
+        <style>
+        *{
+    margin:0;
+    padding: 0;
+}
+header, nav, main, footer{
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    background-color: #6495ed;
+    height: 50px;
+    color: #F0FFFF;
+    text-align: center;
+}
+nav{
+    background-color: #7FFFD4;
+    height: 40px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li{
+    display:inline-block;
+    width: 150px;
+    border: 2px solid #00bfff;
+    background-color:#f0f8ff;
+}
+a{
+    text-decoration-line: none;
+    font-weight: bold;
+}
+a:link{
+    color:#0000FF;
+}
+a:visited{
+    color: #008B8B;
+}
+a:hover{
+    color: #ff1493;
+}
+nav ul li a:link{
+    color:#00bfff;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color:#8B008B;
+}
+nav ul li a:visited{
+    color:#4169e1;
+}
+main{
+    background-color: #00bfff;
+    height: auto;      
+}
+            main nav{
+                width: 500px;
+                height: 50px;
+                text-align: center;
+                background-color: transparent;
+            }
+            main nav a{ 
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 20px;
+            
+            }
+            main nav a:link{ 
+                color: beige;
+                background-color:aquamarine;
+                border: 2px solid beige;
+            }
+            main nav a:visited{
+                border: 2px solid blue;
+                color: blue;
+            }
+            main nav a:hover{  
+                text-decoration: none;
+                color:blueviolet;
+                background-color:azure;
+            }
+ footer{
+    background-color: #00FFFF;
+    height: 30px;
+    text-align: center;
+    color: #6495ed;
+}
+h5{
+    padding:auto;
+    text-align: center;
+}
+section{
+    width: 45%;
+    height: auto;
+    background-color: #F0FFFF;
+    margin: 40px auto;
+    padding: 30px;
+}
+section h1{
+    color:#008B8B;
+    text-align: center;
+    padding-bottom: 20px;
+}
+table{
+    width:100%;
+    border: 5px solid #00FFFF;
+    border-collapse: collapse;
+}
+table td, table th{
+    width:30px;
+    border: 2px solid #00FFFF;
+    color: #008B8B;
+}
+table td{
+    text-align: center;
+    padding: 10px;
+}
+table th{
+    background-color: #00bfff;
+    color:white;
+}
+.imagen{
+    width: 80px;
+    height: auto;
+    padding: 10px;        
+}
+(img class="imagen" src="../imagenes/mi%20primer%20amor.jpg"){
+    filter: blur(100px);
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="menú">Galería</h1>
+        </header>
+        <nav>
+        <ul>
+            <li><a href="./inicio.html">Inicio</a></li>
+            <li><a href="./pr%C3%A1cticas.html">Prácticas</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+        <main>
+            <section>
+                <h1>Películas favoritas</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Romance</th>
+                            <th>Terror</th>
+                            <th>Animación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><p><img class="imagen" src="../imagenes/mi%20primer%20amor.jpg" style="filter:drop-shadow(10px 5px 18px green);"></p>Mi primer amor</td>
+                            <td><p><img class="imagen" src="../imagenes/el%20conjuro.jpg" style="filter:sepia(80%);"></p>El Conjuro</td>
+                            <td><p><img class="imagen" src="../imagenes/tarzan.jpg" style="filter:contrast(200%);"></p>Tarzan</td>
+                        </tr>
+                        <tr>
+                            <td><p><img class="imagen" src="../imagenes/Orgullo_y_prejuicio.jpg" style="filter:invert(75%);"></p>Orgullo y prejuicio</td>
+                            <td><p><img class="imagen" src="../imagenes/el%20titere.jpg" style="filter: blur(1.5px);"></p>El títere</td>
+                            <td><p><img class="imagen" src="../imagenes/your%20name.jpg" style="filter:opacity(30%);"></p>Your name</td>
+                        </tr>
+                        <tr>
+                            <td><p><img class="imagen" src="../imagenes/un%20amor%20para%20recordar.jpg" style="filter:saturate(180%);"></p>Un amor para recordar</td>
+                            <td><p><img class="imagen" src="../imagenes/telefono%20negro.jpg" style="filter:grayscale(180%);"></p>El teléfono negro</td>
+                            <td><p><img class="imagen" src="../imagenes/nimona.jpg" style="filter:brightness(55%);"></p>Nimona</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                    
+                    </tfoot>
+                </table>
+        
+            </section>
+            <nav>
+            <a href="#menú">Menú</a>
+            </nav>
+            </main>
+        <footer>
+        <h5>Elaborado por Mafer Delsa</h5>
+        </footer>
+    </body>
+</html>

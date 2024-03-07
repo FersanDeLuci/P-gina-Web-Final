@@ -1,0 +1,299 @@
+<html>
+    <head>
+        <title>Tablas</title>
+        <style>
+        *{
+    margin:0;
+    padding: 0;
+}
+header, nav, main, footer{
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    background-color: #6495ed;
+    height: 50px;
+    color: #F0FFFF;
+    text-align: center;
+}
+nav{
+    background-color: #7FFFD4;
+    height: 40px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li{
+    display:inline-block;
+    width: 150px;
+    border: 2px solid #00bfff;
+    background-color:#f0f8ff;
+}
+a{
+    text-decoration-line: none;
+    font-weight: bold;
+}
+a:link{
+    color:#0000FF;
+}
+a:visited{
+    color: #008B8B;
+}
+a:hover{
+    color: #ff1493;
+}
+nav ul li a:link{
+    color:#00bfff;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color:#8B008B;
+}
+nav ul li a:visited{
+    color:#4169e1;
+}
+main{
+    background-color: #00bfff;
+    height: auto;      
+}
+            main nav{
+                width: 500px;
+                height: 50px;
+                text-align: center;
+                background-color: transparent;
+            }
+            main nav a{ 
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 20px;
+            
+            }
+            main nav a:link{ 
+                color: beige;
+                background-color:aquamarine;
+                border: 2px solid beige;
+            }
+            main nav a:visited{
+                border: 2px solid blue;
+                color: blue;
+            }
+            main nav a:hover{  
+                text-decoration: none;
+                color:blueviolet;
+                background-color:azure;
+            }
+ footer{
+    background-color: #00FFFF;
+    height: 40px;
+    text-align: center;
+    color: #6495ed;
+}
+h5{
+    padding:auto;
+    text-align: center;
+}
+section{
+    width: 80%;
+    height: 200px auto;
+    background-color: #F0FFFF;
+    margin: 40px auto;
+    padding: 30px;
+}
+section h1{
+    color:#008B8B;
+    text-align: center;
+    padding-bottom: 20px;
+}
+table{
+    width:100%;
+    border: 5px solid #00FFFF;
+    border-collapse: collapse;
+}
+table td, table th{
+    width:30px;
+    border: 2px solid #00FFFF;
+    color: #008B8B;
+}
+table td{
+    text-align: center;
+}
+table th{
+    background-color: #008B8B;
+    color:white;
+    padding:10px;
+}
+.table2{
+    width: 90%;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}   
+.table2 td{
+    color: darkcyan;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 10px;
+
+}      
+.table2 th,.table2 td{
+    border: 2px solid #00FFFF;
+    text-align: center;
+}
+.table2 tr td:hover{
+	background-color: cornflowerblue;
+	color: #FFFDFD;
+}
+#table3{
+    width: 90%;
+    margin-left:  auto;
+    margin-right: auto;
+}
+#table3 th{ 
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+}
+#table3 tr:nth-child(even){
+    background-color: aliceblue;
+    color: cornsilk; 
+}
+#table3 tr:nth-child(odd){
+    background-color: beige;
+    color: aliceblue;
+}
+#table3 tr:hover{
+    background-color: silver;
+    color:black;
+}
+#table3 td{
+    background-color: transparent;
+    color: darkcyan;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+}
+</style>
+    </head>
+    <body>
+        <header>
+            <h1>Tablas</h1>
+        </header>
+        <nav>
+        <ul>
+            <li><a href="./inicio.html">Inicio</a></li>
+            <li><a href="./galer%C3%ADa.html">Galería</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+        <main>
+            <section>
+       <h1>Título</h1>
+            <table class="table2">
+            <thead>
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2 </th>
+                    <th>Encabezado 3 </th>
+                    <th>Encabezado 4 </th>
+                    
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Dato1</td>
+                    <td>Dato1</td>
+                    <td>Dato1</td>
+                    <td>Dato1</td>
+                </tr>
+                <tr>
+                    <td>Dato2</td>
+                    <td>Dato2</td>
+                    <td>Dato2</td>
+                    <td>Dato2</td>
+                </tr>
+                <tr>
+                    
+                    <td>Dato3</td>
+                    <td>Dato3</td>
+                    <td>Dato3</td>
+                    <td>Dato3</td>
+                </tr>
+                <tr>
+                    <td>Dato4</td>
+                    <td>Dato4</td>
+                    <td>Dato4</td>
+                    <td>Dato4</td>
+                </tr>
+                  
+                    
+                </tbody>
+            <tfoot>
+                
+                </tfoot>
+            </table>
+                 
+            </section>
+			<section>
+			<h1>Título</h1>
+			<table id="table3">
+				<thead>
+					<tr>
+						<th>Encabezado 1</th>
+						<th>Encabezado 2</th>
+						<th>Encabezado 3</th>
+						<th>Encabezado 4</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Dato 1</td>
+						<td>Dato 1</td>
+						<td>Dato 1</td>
+						<td>Dato 1</td>
+					</tr>
+					<tr>
+						<td>Dato 2</td>
+						<td>Dato 2</td>
+						<td>Dato 2</td>
+						<td>Dato 2</td>
+					</tr>
+					<tr>
+						<td>Dato 3</td>
+						<td>Dato 3</td>
+						<td>Dato 3</td>
+						<td>Dato 3</td>
+					</tr>
+				    <tr>
+				        <td>Dato 4</td>
+						<td>Dato 4</td>
+						<td>Dato 4</td>
+						<td>Dato 4</td>
+				    </tr>
+				    <tr>
+				        <td>Dato 5</td>
+						<td>Dato 5</td>
+						<td>Dato 5</td>
+						<td>Dato 5</td>
+				    </tr>
+				    <tr>
+				        <td>Dato 6</td>
+						<td>Dato 6</td>
+						<td>Dato 6</td>
+						<td>Dato 6</td>
+				    </tr>
+				</tbody>
+				<tfoot></tfoot>
+                </table>
+			</section> 
+            <nav>
+            <a href="./pr%C3%A1cticas.html">Prácticas</a>
+        </nav>
+        </main>
+        <footer>
+        <h5>Elaborado por Mafer Delsa</h5>
+        </footer>
+    </body>
+</html>
